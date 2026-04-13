@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "hardware") (type "KiCad") (uri "C:/Users/UTC Student/Documents/Shadowfax/camera-controller/hardware.pretty") (options "") (descr ""))
+	(lib (name "camera-controller") (type "KiCad") (uri "${KIPRJMOD}/camera-controller.pretty") (options "") (descr ""))
+)

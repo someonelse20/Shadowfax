@@ -6995,7 +6995,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "RCLAMP2271ZC.F\n22v"
+	(text "RCLAMP2261PW.C\n22v"
 		(exclude_from_sim no)
 		(at 267.462 153.67 0)
 		(effects
@@ -7024,12 +7024,6 @@
 		(uuid "1223054a-3be9-4b6a-8d4c-3c204c6d66ea")
 	)
 	(junction
-		(at 66.04 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1307d588-d9d4-485d-999d-44db25bc3901")
-	)
-	(junction
 		(at 162.56 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7040,6 +7034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "221ad7df-e359-4307-978d-a7051f9bae36")
+	)
+	(junction
+		(at 66.04 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "279e9c0c-f31e-4007-b121-51361d6db19d")
 	)
 	(junction
 		(at 242.57 46.99)
@@ -7076,12 +7076,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4225636b-a261-4d91-9825-cd1886a7b027")
-	)
-	(junction
-		(at 110.49 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4528dac2-fd19-4bc7-b221-0e4c1bd84c0f")
 	)
 	(junction
 		(at 57.15 151.13)
@@ -7150,12 +7144,6 @@
 		(uuid "5f933109-da08-459c-b8ca-3c4dc56bac9d")
 	)
 	(junction
-		(at 60.96 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6160d637-808c-4049-b628-5b0628a189f5")
-	)
-	(junction
 		(at 198.12 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7180,7 +7168,7 @@
 		(uuid "6a0f2539-e027-46a0-9a03-23ce1d81f0bc")
 	)
 	(junction
-		(at 78.74 67.31)
+		(at 85.09 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7184d3fb-9c5e-4f73-9758-ff7b99cd6892")
@@ -7216,10 +7204,22 @@
 		(uuid "7f3ad04d-bf77-4ff5-9e1a-8eae89d1d0dc")
 	)
 	(junction
+		(at 88.9 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85e3b582-d765-4879-8fca-a395347fad93")
+	)
+	(junction
 		(at 137.16 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8638b34d-2472-4529-803b-1b859c544085")
+	)
+	(junction
+		(at 60.96 24.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "899f1dee-e255-4119-9839-05294ae3f262")
 	)
 	(junction
 		(at 111.76 30.48)
@@ -7232,12 +7232,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a43341ae-a8c9-44dd-805a-7aeaff7849e1")
-	)
-	(junction
-		(at 88.9 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a66c239b-440d-4be0-9350-2b2f1e9c6136")
 	)
 	(junction
 		(at 80.01 113.03)
@@ -7318,12 +7312,6 @@
 		(uuid "d36f4f0d-be81-4ac3-bde9-1b313c951cd9")
 	)
 	(junction
-		(at 78.74 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6fe72b4-6e22-4aeb-a0d9-b47b2f854777")
-	)
-	(junction
 		(at 260.35 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7360,12 +7348,6 @@
 		(uuid "e5cbb4cf-8ec5-47f0-adfb-fe470ba77944")
 	)
 	(junction
-		(at 106.68 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e8dca23b-4de5-47d2-a429-4ee0f3ef1d76")
-	)
-	(junction
 		(at 234.95 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7383,17 +7365,83 @@
 		(color 0 0 0 0)
 		(uuid "f6530e0c-82ed-49e5-a29e-52413cce3615")
 	)
+	(junction
+		(at 85.09 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe7ed63c-f3ba-4465-a78c-27053da2f45c")
+	)
 	(no_connect
 		(at 257.81 71.12)
 		(uuid "0128dc92-4476-4b23-98b0-2d7a3ae27803")
+	)
+	(no_connect
+		(at 162.56 74.93)
+		(uuid "215bd8f7-0c5e-4948-a1b8-0538bf891571")
+	)
+	(no_connect
+		(at 162.56 90.17)
+		(uuid "36e09a74-aa48-412a-943d-75f7c58fdbb6")
+	)
+	(no_connect
+		(at 162.56 105.41)
+		(uuid "4cba2b58-ea0e-4248-946d-0c4b0db0f98f")
+	)
+	(no_connect
+		(at 162.56 62.23)
+		(uuid "4d99b6ad-a383-4f9a-9f9e-29ec61255817")
 	)
 	(no_connect
 		(at 257.81 73.66)
 		(uuid "4e8c37a8-e4b8-4175-950d-af4eab9e320b")
 	)
 	(no_connect
+		(at 162.56 107.95)
+		(uuid "4ff83e8b-8b4d-4061-952d-f0dec93280ae")
+	)
+	(no_connect
+		(at 111.76 77.47)
+		(uuid "6fddbd71-23c5-4b52-8059-fa0e82aa85c5")
+	)
+	(no_connect
+		(at 111.76 80.01)
+		(uuid "8a6c250f-aac2-47f6-a709-551f7a7a3403")
+	)
+	(no_connect
+		(at 162.56 52.07)
+		(uuid "8cd98eb9-8a22-4c68-b5df-340d5a91a511")
+	)
+	(no_connect
+		(at 111.76 82.55)
+		(uuid "8dee6cba-56b7-443f-b795-d8688be9a64c")
+	)
+	(no_connect
+		(at 162.56 118.11)
+		(uuid "93971658-7bab-4999-9c39-aca3530275aa")
+	)
+	(no_connect
+		(at 111.76 107.95)
+		(uuid "96739ab2-b5ee-4344-8d88-f0841909a6c7")
+	)
+	(no_connect
+		(at 162.56 77.47)
+		(uuid "a00a4b3f-e310-4d59-a58d-bc82c758eec8")
+	)
+	(no_connect
+		(at 162.56 59.69)
+		(uuid "bbfc6ae7-08f1-442e-bef8-21d6d0464302")
+	)
+	(no_connect
+		(at 111.76 74.93)
+		(uuid "ea16873a-ac37-43c7-a349-cc322783d22a")
+	)
+	(no_connect
 		(at 257.81 76.2)
 		(uuid "f4b4f8df-7094-429c-a05e-d98100e89835")
+	)
+	(no_connect
+		(at 162.56 115.57)
+		(uuid "f4ec8032-46fc-4263-96d4-f8f1d8aad6b0")
 	)
 	(wire
 		(pts
@@ -7647,7 +7695,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 62.23) (xy 78.74 57.15)
+			(xy 85.09 62.23) (xy 85.09 55.88)
 		)
 		(stroke
 			(width 0)
@@ -7714,16 +7762,6 @@
 			(type default)
 		)
 		(uuid "1a30de25-ef66-4c79-bccf-22ac6964e995")
-	)
-	(wire
-		(pts
-			(xy 59.69 67.31) (xy 69.85 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8869e9-9d64-4b70-b74c-4ee24e3c0393")
 	)
 	(wire
 		(pts
@@ -7927,6 +7965,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 118.11) (xy 111.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b3d6751-9a7d-4d7f-b1ba-135865f7bba2")
+	)
+	(wire
+		(pts
 			(xy 106.68 129.54) (xy 106.68 130.81)
 		)
 		(stroke
@@ -7947,7 +7995,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 57.15) (xy 66.04 57.15)
+			(xy 76.2 55.88) (xy 74.93 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8077,6 +8125,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 62.23) (xy 76.2 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37abb866-4f2c-4011-9b7c-2819452d591e")
+	)
+	(wire
+		(pts
 			(xy 162.56 97.79) (xy 172.72 97.79)
 		)
 		(stroke
@@ -8167,7 +8225,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 66.04 55.88)
+			(xy 63.5 55.88) (xy 63.5 54.61)
 		)
 		(stroke
 			(width 0)
@@ -8427,16 +8485,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 120.65) (xy 106.68 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54d884ec-24f1-4878-ae62-cdfd4ea106e0")
-	)
-	(wire
-		(pts
 			(xy 127 20.32) (xy 130.81 20.32)
 		)
 		(stroke
@@ -8447,7 +8495,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 57.15) (xy 77.47 57.15)
+			(xy 85.09 55.88) (xy 83.82 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8457,23 +8505,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 62.23) (xy 69.85 62.23)
+			(xy 57.15 62.23) (xy 67.31 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "567d04f6-536a-4434-9870-b251f5780cac")
-	)
-	(wire
-		(pts
-			(xy 111.76 118.11) (xy 110.49 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5689de9f-bf4f-4200-ab13-a4234a1a4cdd")
 	)
 	(wire
 		(pts
@@ -8667,6 +8705,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 55.88) (xy 63.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669c83ac-8325-46b4-8590-1091b6d1aab7")
+	)
+	(wire
+		(pts
 			(xy 44.45 39.37) (xy 52.07 39.37)
 		)
 		(stroke
@@ -8687,7 +8735,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 68.58) (xy 78.74 67.31)
+			(xy 85.09 69.85) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9117,7 +9165,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 67.31) (xy 78.74 62.23)
+			(xy 85.09 62.23) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9277,7 +9325,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 62.23) (xy 78.74 62.23)
+			(xy 83.82 62.23) (xy 85.09 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9457,7 +9505,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 120.65) (xy 110.49 120.65)
+			(xy 106.68 120.65) (xy 111.76 120.65)
 		)
 		(stroke
 			(width 0)
@@ -9657,6 +9705,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 69.85) (xy 111.76 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9c7505b-810e-4d8e-9c6d-ce20440bdb1c")
+	)
+	(wire
+		(pts
 			(xy 276.86 148.59) (xy 276.86 149.86)
 		)
 		(stroke
@@ -9797,6 +9855,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 68.58) (xy 76.2 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b35eaa45-1f7c-452a-8f2b-7f1447fbaae0")
+	)
+	(wire
+		(pts
 			(xy 27.94 102.87) (xy 36.83 102.87)
 		)
 		(stroke
@@ -9817,7 +9885,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 67.31) (xy 78.74 67.31)
+			(xy 83.82 68.58) (xy 85.09 68.58)
 		)
 		(stroke
 			(width 0)
@@ -9914,6 +9982,16 @@
 			(type default)
 		)
 		(uuid "b9b7ca9e-c12b-46cd-9a6a-457c4e3f2c6a")
+	)
+	(wire
+		(pts
+			(xy 57.15 68.58) (xy 67.31 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ec7fc0-4926-44ba-961d-40ad48facf96")
 	)
 	(wire
 		(pts
@@ -10207,16 +10285,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 118.11) (xy 110.49 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbcc1a76-1f93-4c61-b2ac-5a549f3c4ab7")
-	)
-	(wire
-		(pts
 			(xy 162.56 30.48) (xy 170.18 30.48)
 		)
 		(stroke
@@ -10304,16 +10372,6 @@
 			(type default)
 		)
 		(uuid "d1ef7a88-7c37-4630-8d59-3f9d05b575de")
-	)
-	(wire
-		(pts
-			(xy 99.06 120.65) (xy 106.68 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3d9c556-bf6a-4d66-8de2-cdb1e3d12c81")
 	)
 	(wire
 		(pts
@@ -10477,7 +10535,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 120.65) (xy 99.06 121.92)
+			(xy 99.06 118.11) (xy 99.06 121.92)
 		)
 		(stroke
 			(width 0)
@@ -11046,7 +11104,7 @@
 		(uuid "2cb1d406-e88e-4ff2-b676-69bf146daf46")
 	)
 	(label "CAM_STAT"
-		(at 59.69 62.23 0)
+		(at 57.15 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11064,6 +11122,16 @@
 			(justify left bottom)
 		)
 		(uuid "366e3750-e8c4-425e-a480-20a2298e2685")
+	)
+	(label "SD_DET"
+		(at 100.33 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "37738ceb-2be7-47ae-a97c-c1c7c1a7df53")
 	)
 	(label "LSE_OUT"
 		(at 100.33 113.03 0)
@@ -11466,7 +11534,7 @@
 		(uuid "b8916f94-e557-4d91-9546-1e31a9dff375")
 	)
 	(label "LR_STAT"
-		(at 59.69 67.31 0)
+		(at 57.15 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11747,7 +11815,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 73.66 62.23 180)
+		(at 80.01 62.23 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11757,7 +11825,7 @@
 		(dnp no)
 		(uuid "00bdf2c7-e7a4-4f6e-b6e8-b7993b3ffa42")
 		(property "Reference" "D4"
-			(at 70.612 59.69 0)
+			(at 76.962 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11767,7 +11835,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 73.914 59.69 0)
+			(at 80.264 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11776,8 +11844,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 62.23 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11788,7 +11856,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 62.23 0)
+			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11799,7 +11867,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 62.23 0)
+			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11810,7 +11878,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 62.23 0)
+			(at 80.01 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12027,7 +12095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 35.052 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -12070,6 +12138,85 @@
 			(project "camera-controller"
 				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09559ce3-6917-48fa-a180-d8d17c58d629")
+		(property "Reference" "R11"
+			(at 71.12 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 71.12 53.848 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.12 57.658 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "01a20ad3-8ad4-4885-b21b-831059be9f10")
+		)
+		(pin "1"
+			(uuid "9ee500f4-3471-4851-a499-a40386228c51")
+		)
+		(instances
+			(project "camera-controller"
+				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -12261,7 +12408,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 234.95 128.5748 0)
 			(hide yes)
 			(show_name no)
@@ -12656,7 +12803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 233.68 138.7348 0)
 			(hide yes)
 			(show_name no)
@@ -12899,7 +13046,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 29.972 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -12980,7 +13127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -13292,7 +13439,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 223.2152 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13373,7 +13520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 50.292 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -13919,7 +14066,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 222.25 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -14758,7 +14905,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 66.04 55.88 0)
+		(at 63.5 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14768,7 +14915,7 @@
 		(dnp no)
 		(uuid "41576156-4824-4156-a41c-4e03e8380cad")
 		(property "Reference" "#PWR067"
-			(at 66.04 59.69 0)
+			(at 63.5 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14779,7 +14926,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 66.04 52.07 0)
+			(at 63.5 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14789,7 +14936,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 55.88 0)
+			(at 63.5 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14800,7 +14947,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 55.88 0)
+			(at 63.5 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14811,7 +14958,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 66.04 55.88 0)
+			(at 63.5 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14944,7 +15091,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 236.5248 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15258,7 +15405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 116.5352 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15815,7 +15962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 55.88 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -16212,7 +16359,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 198.12 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -16293,7 +16440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.6452 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -16374,7 +16521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 24.892 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -16736,7 +16883,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 68.58 0)
+		(at 85.09 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16747,7 +16894,7 @@
 		(fields_autoplaced yes)
 		(uuid "705e6097-f39d-4e02-91e3-32c8982813e0")
 		(property "Reference" "#PWR027"
-			(at 78.74 74.93 0)
+			(at 85.09 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16758,7 +16905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 73.66 0)
+			(at 85.09 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16768,7 +16915,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 68.58 0)
+			(at 85.09 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16779,7 +16926,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 68.58 0)
+			(at 85.09 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16790,7 +16937,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 78.74 68.58 0)
+			(at 85.09 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17052,6 +17199,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Micro_SD_Card_Det1")
+		(at 82.55 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fa318a6-f622-423d-87ac-547aa454f479")
+		(property "Reference" "J5"
+			(at 83.185 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card_Det1"
+			(at 83.185 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "camera-controller:CUI_MSD-4-A"
+			(at 134.62 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+			(at 82.55 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro SD Card Socket with one card detection pin"
+			(at 82.55 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "edfe748d-ca68-4f51-b80d-e15749ac4af7")
+		)
+		(pin "6"
+			(uuid "6a296a1d-9ab7-474d-9f00-08432817f1c4")
+		)
+		(pin "SH"
+			(uuid "56b277c9-7dd7-46e1-8495-9fe82fe36f67")
+		)
+		(pin "4"
+			(uuid "e089e43d-3cf6-42f5-ae5c-3f93043750d9")
+		)
+		(pin "8"
+			(uuid "48ed096e-125b-4dbf-bd24-bdec749102b2")
+		)
+		(pin "2"
+			(uuid "e3d357a0-2a97-4237-acab-3e954645dacc")
+		)
+		(pin "3"
+			(uuid "8b3ae18a-3323-4066-90b3-579339a4d087")
+		)
+		(pin "5"
+			(uuid "a581097d-2802-4681-8187-18aa5e871961")
+		)
+		(pin "9"
+			(uuid "ac717a44-ef32-4ba7-b4f7-75949da3c6fd")
+		)
+		(pin "7"
+			(uuid "2d84d6ec-2518-408b-8685-8f929e3cf79c")
+		)
+		(instances
+			(project "camera-controller"
+				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
 		(at 27.94 39.37 0)
 		(unit 1)
@@ -17083,7 +17334,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 31.75 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -17588,7 +17839,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.26 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -17631,6 +17882,85 @@
 			(project "camera-controller"
 				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c33e957-6d3e-4354-b3d7-1062efeef2cd")
+		(property "Reference" "R13"
+			(at 71.12 64.77 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 71.12 66.548 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.12 70.358 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "47917b87-b126-4191-bbb6-d42c285ebd1d")
+		)
+		(pin "1"
+			(uuid "d0b7682a-75ea-413b-87c9-bc667f973fbb")
+		)
+		(instances
+			(project "camera-controller"
+				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -17744,7 +18074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.01 128.5748 0)
 			(hide yes)
 			(show_name no)
@@ -17906,7 +18236,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 212.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -17984,7 +18314,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 73.66 57.15 180)
+		(at 80.01 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17994,7 +18324,7 @@
 		(dnp no)
 		(uuid "90821ed1-fcfe-4785-813c-9c3db1838df8")
 		(property "Reference" "D3"
-			(at 70.612 54.61 0)
+			(at 76.962 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18004,7 +18334,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 73.914 54.61 0)
+			(at 80.264 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18013,8 +18343,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 57.15 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18025,7 +18355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 57.15 0)
+			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18036,7 +18366,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 57.15 0)
+			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18047,7 +18377,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 57.15 0)
+			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18151,7 +18481,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 73.66 67.31 180)
+		(at 80.01 68.58 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18161,7 +18491,7 @@
 		(dnp no)
 		(uuid "92356e23-a370-4dc5-a580-e4f571b3e951")
 		(property "Reference" "D5"
-			(at 70.612 64.77 0)
+			(at 76.962 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18171,7 +18501,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 73.914 64.77 0)
+			(at 80.264 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18180,8 +18510,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 67.31 0)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18192,7 +18522,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 67.31 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18203,7 +18533,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 67.31 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18214,7 +18544,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 67.31 0)
+			(at 80.01 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18429,7 +18759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 229.87 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -18511,7 +18841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 205.232 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -18592,7 +18922,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 100.0252 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -19239,6 +19569,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 62.23 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aea75483-d381-42d1-af9e-a373eea86393")
+		(property "Reference" "R12"
+			(at 71.12 58.42 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.2K"
+			(at 71.12 60.198 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 71.12 64.008 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "faf389d6-3b4b-4458-9b50-083da1a656ba")
+		)
+		(pin "1"
+			(uuid "424f0c78-ee37-4e98-800d-a9b9db786b68")
+		)
+		(instances
+			(project "camera-controller"
+				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 264.16 60.96 90)
 		(unit 1)
@@ -19270,7 +19679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 264.16 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -19582,7 +19991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 40.132 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -19739,7 +20148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 203.2 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20167,7 +20576,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 48.26 29.972 90)
 			(hide yes)
 			(show_name no)
@@ -20246,7 +20655,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 215.9 142.5448 0)
 			(hide yes)
 			(show_name no)
@@ -20328,7 +20737,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 249.2248 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20371,110 +20780,6 @@
 			(project "camera-controller"
 				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Micro_SD_Card_Det1")
-		(at 82.55 172.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc78cd1e-59b0-4266-8389-c0767a45094a")
-		(property "Reference" "J5"
-			(at 83.185 151.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Micro_SD_Card_Det1"
-			(at 83.185 153.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
-			(at 134.62 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
-			(at 82.55 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Micro SD Card Socket with one card detection pin"
-			(at 82.55 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "4990527e-31f0-4599-b6c4-467e4dacfac4")
-		)
-		(pin "8"
-			(uuid "69ffa75d-c284-4685-9351-89c0a2ba20c5")
-		)
-		(pin "6"
-			(uuid "a6d26369-d9a0-4479-a919-d257d79c95ad")
-		)
-		(pin "9"
-			(uuid "4a301ad7-b187-42e0-b1b5-89da1f193ebb")
-		)
-		(pin "3"
-			(uuid "8ccc48f0-c072-451c-a9ec-58acde9e4d65")
-		)
-		(pin "2"
-			(uuid "7466b626-87f6-497b-aa9e-765a50155494")
-		)
-		(pin "1"
-			(uuid "bc743276-e0f0-49a2-882d-b6c91c532599")
-		)
-		(pin "SH"
-			(uuid "20442fc6-6f66-47bd-bdb0-a4f7000c508e")
-		)
-		(pin "4"
-			(uuid "355b4380-e5d8-4e24-8091-5a05d51437ab")
-		)
-		(pin "7"
-			(uuid "1af401a5-8a80-4134-8ca5-0ea9b930841c")
-		)
-		(instances
-			(project "camera-controller"
-				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -20751,7 +21056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 243.84 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -20833,7 +21138,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
 			(at 260.35 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -21149,7 +21454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 45.212 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -21311,7 +21616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:U.FL_Molex_MCRF_73412-0110_Vertical"
 			(at 276.86 143.51 0)
 			(hide yes)
 			(show_name no)
