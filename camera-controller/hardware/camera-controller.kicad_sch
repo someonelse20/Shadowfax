@@ -191,6 +191,387 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Micro_SD_Card_Det1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Micro_SD_Card_Det1"
+				(at 16.51 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 52.07 17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Micro SD Card Socket with one card detection pin"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector SD microsd"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "microSD*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det1_0_1"
+				(polyline
+					(pts
+						(xy -8.89 -8.89) (xy -8.89 11.43) (xy -1.27 11.43) (xy 2.54 15.24) (xy 3.81 15.24) (xy 3.81 13.97)
+						(xy 6.35 13.97) (xy 7.62 15.24) (xy 20.32 15.24) (xy 20.32 -8.89) (xy -8.89 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -7.62 10.795)
+					(end -5.08 9.525)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 8.255)
+					(end -5.08 6.985)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 5.715)
+					(end -5.08 4.445)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 3.175)
+					(end -5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 0.635)
+					(end -5.08 -0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -1.905)
+					(end -5.08 -3.175)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -4.445)
+					(end -5.08 -5.715)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -6.985)
+					(end -5.08 -8.255)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 16.51 15.24) (xy 16.51 16.51) (xy -19.05 16.51) (xy -19.05 -16.51) (xy 16.51 -16.51) (xy 16.51 -8.89)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Micro_SD_Card_Det1_1_1"
+				(pin bidirectional line
+					(at -22.86 10.16 0)
+					(length 3.81)
+					(name "DAT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 7.62 0)
+					(length 3.81)
+					(name "DAT3/CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 5.08 0)
+					(length 3.81)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 2.54 0)
+					(length 3.81)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -22.86 0 0)
+					(length 3.81)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -22.86 -2.54 0)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -5.08 0)
+					(length 3.81)
+					(name "DAT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -22.86 -7.62 0)
+					(length 3.81)
+					(name "DAT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -22.86 -12.7 0)
+					(length 3.81)
+					(name "DET"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -12.7 180)
+					(length 3.81)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "SH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -6515,7 +6896,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 111.76) (xy 43.18 111.76)
+			(xy 29.21 88.9) (xy 39.37 88.9)
 		)
 		(stroke
 			(width 0)
@@ -6645,7 +7026,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 142.24) (xy 41.91 142.24)
+			(xy 29.21 119.38) (xy 38.1 119.38)
 		)
 		(stroke
 			(width 0)
@@ -6665,7 +7046,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 132.08) (xy 41.91 132.08)
+			(xy 29.21 109.22) (xy 38.1 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6775,7 +7156,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 144.78) (xy 43.18 144.78)
+			(xy 29.21 121.92) (xy 39.37 121.92)
 		)
 		(stroke
 			(width 0)
@@ -7795,7 +8176,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 104.14) (xy 33.02 104.14)
+			(xy 39.37 81.28) (xy 29.21 81.28)
 		)
 		(stroke
 			(width 0)
@@ -7815,7 +8196,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 149.86) (xy 41.91 149.86)
+			(xy 29.21 127) (xy 38.1 127)
 		)
 		(stroke
 			(width 0)
@@ -8085,7 +8466,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 137.16) (xy 41.91 137.16)
+			(xy 29.21 114.3) (xy 38.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8135,7 +8516,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 109.22) (xy 43.18 109.22)
+			(xy 29.21 86.36) (xy 39.37 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8205,7 +8586,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 139.7) (xy 41.91 139.7)
+			(xy 29.21 116.84) (xy 38.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8295,7 +8676,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 134.62) (xy 41.91 134.62)
+			(xy 29.21 111.76) (xy 38.1 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8495,7 +8876,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 106.68) (xy 33.02 106.68)
+			(xy 39.37 83.82) (xy 29.21 83.82)
 		)
 		(stroke
 			(width 0)
@@ -8605,7 +8986,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 147.32) (xy 43.18 147.32)
+			(xy 29.21 124.46) (xy 39.37 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8914,7 +9295,7 @@
 		(uuid "1492dd4d-eb75-4c37-9361-2a10fba84115")
 	)
 	(label "MOSI"
-		(at 41.91 137.16 180)
+		(at 38.1 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8964,7 +9345,7 @@
 		(uuid "278b7c46-6b6a-4d1c-b4a3-c952e926a092")
 	)
 	(label "UART_RX"
-		(at 43.18 109.22 180)
+		(at 39.37 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9064,7 +9445,7 @@
 		(uuid "75074c7b-9934-4f25-807e-aa07986242ae")
 	)
 	(label "MISO"
-		(at 41.91 139.7 180)
+		(at 38.1 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9104,7 +9485,7 @@
 		(uuid "9d918833-b0d0-4e00-8d19-a29c7e655f06")
 	)
 	(label "SCK"
-		(at 41.91 142.24 180)
+		(at 38.1 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9154,7 +9535,7 @@
 		(uuid "bf1f182e-48cf-446a-8365-87c8b92527b1")
 	)
 	(label "SDA"
-		(at 41.91 149.86 180)
+		(at 38.1 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9164,7 +9545,7 @@
 		(uuid "cde29f1c-37c6-4f83-bd23-743a8813b493")
 	)
 	(label "SCL"
-		(at 41.91 132.08 180)
+		(at 38.1 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9234,7 +9615,7 @@
 		(uuid "fd571ae7-16d1-44bf-ad21-8f4154f265fa")
 	)
 	(label "CAM_CS"
-		(at 41.91 134.62 180)
+		(at 38.1 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9244,7 +9625,7 @@
 		(uuid "ff599705-433d-41ef-94d2-cf8a037a51a1")
 	)
 	(label "UART_TX"
-		(at 43.18 111.76 180)
+		(at 39.37 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9255,7 +9636,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 43.18 104.14 270)
+		(at 39.37 81.28 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9265,7 +9646,7 @@
 		(dnp no)
 		(uuid "01a10e72-8f59-4787-80cd-552cbc545e27")
 		(property "Reference" "#PWR014"
-			(at 39.37 104.14 0)
+			(at 35.56 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9276,7 +9657,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 45.72 104.14 90)
+			(at 41.91 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9287,7 +9668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 104.14 0)
+			(at 39.37 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9298,7 +9679,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 104.14 0)
+			(at 39.37 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9309,7 +9690,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 43.18 104.14 0)
+			(at 39.37 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10756,7 +11137,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 43.18 147.32 270)
+		(at 39.37 124.46 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10766,7 +11147,7 @@
 		(dnp no)
 		(uuid "2c19b8c9-5bcd-4066-afd5-3255acbb4ea1")
 		(property "Reference" "#PWR035"
-			(at 39.37 147.32 0)
+			(at 35.56 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10777,7 +11158,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 48.768 147.32 90)
+			(at 44.958 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10787,7 +11168,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 147.32 0)
+			(at 39.37 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10798,7 +11179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 147.32 0)
+			(at 39.37 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10809,7 +11190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 43.18 147.32 0)
+			(at 39.37 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11464,7 +11845,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 144.78 90)
+		(at 39.37 121.92 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11474,7 +11855,7 @@
 		(dnp no)
 		(uuid "3eab58f1-b8ad-44c2-9555-bbaf4bbc21f8")
 		(property "Reference" "#PWR040"
-			(at 49.53 144.78 0)
+			(at 45.72 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11485,7 +11866,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.006 144.78 90)
+			(at 44.196 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11495,7 +11876,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 144.78 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11506,7 +11887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 144.78 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11517,7 +11898,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 144.78 0)
+			(at 39.37 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12094,7 +12475,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
-		(at 27.94 106.68 0)
+		(at 24.13 83.82 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -12106,7 +12487,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b02cf59-6c56-4e47-b29b-d069894a9fd1")
 		(property "Reference" "J3"
-			(at 27.94 97.79 0)
+			(at 24.13 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12116,7 +12497,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04"
-			(at 27.94 100.33 0)
+			(at 24.13 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12126,7 +12507,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 27.94 106.68 0)
+			(at 24.13 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12137,7 +12518,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 106.68 0)
+			(at 24.13 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12148,7 +12529,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 27.94 106.68 0)
+			(at 24.13 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13126,7 +13507,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 106.68 90)
+		(at 39.37 83.82 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13136,7 +13517,7 @@
 		(dnp no)
 		(uuid "6d80829a-862e-427e-8658-e0f271390ea5")
 		(property "Reference" "#PWR039"
-			(at 49.53 106.68 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13147,7 +13528,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 48.006 106.68 90)
+			(at 44.196 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13157,7 +13538,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 106.68 0)
+			(at 39.37 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13168,7 +13549,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 106.68 0)
+			(at 39.37 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13179,7 +13560,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 106.68 0)
+			(at 39.37 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16005,7 +16386,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 27.94 139.7 0)
+		(at 24.13 116.84 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16017,7 +16398,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3b61fae-d06f-42f9-af70-0911678d5da3")
 		(property "Reference" "J4"
-			(at 27.94 125.73 0)
+			(at 24.13 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16027,7 +16408,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 27.94 128.27 0)
+			(at 24.13 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16037,7 +16418,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
-			(at 27.94 139.7 0)
+			(at 24.13 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16048,7 +16429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 139.7 0)
+			(at 24.13 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16059,7 +16440,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 27.94 139.7 0)
+			(at 24.13 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16418,6 +16799,110 @@
 			(project "camera-controller"
 				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Micro_SD_Card_Det1")
+		(at 34.29 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc78cd1e-59b0-4266-8389-c0767a45094a")
+		(property "Reference" "J5"
+			(at 34.925 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Micro_SD_Card_Det1"
+			(at 34.925 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
+			(at 86.36 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2110151630_XKB-Connectivity-XKTF-015-N_C381082.pdf"
+			(at 34.29 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Micro SD Card Socket with one card detection pin"
+			(at 34.29 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "4990527e-31f0-4599-b6c4-467e4dacfac4")
+		)
+		(pin "8"
+			(uuid "69ffa75d-c284-4685-9351-89c0a2ba20c5")
+		)
+		(pin "6"
+			(uuid "a6d26369-d9a0-4479-a919-d257d79c95ad")
+		)
+		(pin "9"
+			(uuid "4a301ad7-b187-42e0-b1b5-89da1f193ebb")
+		)
+		(pin "3"
+			(uuid "8ccc48f0-c072-451c-a9ec-58acde9e4d65")
+		)
+		(pin "2"
+			(uuid "7466b626-87f6-497b-aa9e-765a50155494")
+		)
+		(pin "1"
+			(uuid "bc743276-e0f0-49a2-882d-b6c91c532599")
+		)
+		(pin "SH"
+			(uuid "20442fc6-6f66-47bd-bdb0-a4f7000c508e")
+		)
+		(pin "4"
+			(uuid "355b4380-e5d8-4e24-8091-5a05d51437ab")
+		)
+		(pin "7"
+			(uuid "1af401a5-8a80-4134-8ca5-0ea9b930841c")
+		)
+		(instances
+			(project "camera-controller"
+				(path "/0edcd408-4a2f-4bf5-ab2c-549daf1696db"
+					(reference "J5")
 					(unit 1)
 				)
 			)
