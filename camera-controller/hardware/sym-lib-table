@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "camera-controller") (type "KiCad") (uri "${KIPRJMOD}/camera-controller.kicad_sym") (options "") (descr ""))
+)
