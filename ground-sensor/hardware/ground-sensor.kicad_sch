@@ -1,0 +1,24 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a73b92c3-c163-4a11-ad94-44b5b8fab156")
+	(paper "A4")
+	(lib_symbols)
+	(text "VL53L5CX for ground mapping\nRange finder for longer range distance\nHumidity sensor for dry landing zones"
+		(exclude_from_sim no)
+		(at 151.384 93.472 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9c3d7010-10b7-40d5-b170-426eb98fe39e")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
