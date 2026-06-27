@@ -60,17 +60,36 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "starved_thermal|141130000|111180000|05472de6-04a2-45f9-8d55-43fdbb239d06|c87c26b8-dc6a-4890-929e-7ccf3068dab0|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|142045000|112250000|05472de6-04a2-45f9-8d55-43fdbb239d06|4f971cbb-0c3d-462c-b689-71c7c59634b4|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|142045000|112250000|05472de6-04a2-45f9-8d55-43fdbb239d06|9cdc2c55-d14a-495b-992d-1381afc0ba02|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -144,7 +163,7 @@
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -152,10 +171,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -203,7 +222,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.4
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +253,20 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.25
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -648,7 +684,7 @@
         "uuid": "707b474b-97a3-4dff-9fab-6b7e853cd4ea"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J6-7,#PWR32,#PWR48-49,#PWR101,#PWR103,R4-5",
     "variants": []
   },
   "sheets": [
