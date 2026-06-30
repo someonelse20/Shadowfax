@@ -19,3 +19,4 @@ Powers the whole stack with 3.3v and connects the ESCs to the input voltage.
 
 ## Frame
 I made a custom frame to fit my custom boards and here it is.
+![Alt text](assets/frame.png)
