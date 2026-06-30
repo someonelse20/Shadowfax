@@ -1,0 +1,73 @@
+"","Sourced","Placed","References","Value","Footprint","Quantity"
+1,"","","C4, C6, C7, C8, C11, C12, C18, C20, C24, C25, C27, C29, C32, C40, C42, C43, C45, C46, C47, C48, C50, C53, C65, C69, C70","100nF","C_0402_1005Metric",25
+2,"","","C19, C21, C22, C23, C41, C44, C61, C63, C75, C76","1uF","C_0402_1005Metric",10
+3,"","","C26, C28, C38, C39, C58, C60, C72, C73","2.2uF","C_0402_1005Metric",8
+4,"","","C2, C3, C15, C16, C17, C31","10uF","C_1210_3225Metric",6
+5,"","","C9, C14, C34, C37, C57, C83","18pF","C_0402_1005Metric",6
+6,"","","C30, C49, C55, C66, C71","4.7uF","C_0603_1608Metric",5
+7,"","","C10, C13, C35, C36","15pF","C_0402_1005Metric",4
+8,"","","C51, C67, C68, C78","47pF","C_0402_1005Metric",4
+9,"","","C1, C74","1uF","C_0603_1608Metric",2
+10,"","","C64, C77","1nF","C_0402_1005Metric",2
+11,"","","C82, C85","1.8pF","C_0402_1005Metric",2
+12,"","","C5","10uF","C_0603_1608Metric",1
+13,"","","C33","47uF","C_1210_3225Metric",1
+14,"","","C52","6.8pF","C_0402_1005Metric",1
+15,"","","C54","2.7pF","C_0402_1005Metric",1
+16,"","","C56","1.1pF","C_0402_1005Metric",1
+17,"","","C59","1.2pF","C_0402_1005Metric",1
+18,"","","C62","2pF","C_0402_1005Metric",1
+19,"","","C79","22pF","C_0402_1005Metric",1
+20,"","","C80","2.2pF","C_0402_1005Metric",1
+21,"","","C81","7.5pF","C_0402_1005Metric",1
+22,"","","C84","3.9pF","C_0402_1005Metric",1
+23,"","","R3, R10, R11, R12, R14, R16, R17, R21","10K","R_0402_1005Metric",8
+24,"","","R4, R5, R18, R19, R20, R25, R26, R27","1.2K","R_0402_1005Metric",8
+25,"","","R13, R15, R24","1K","R_0402_1005Metric",3
+26,"","","R1, R2","5.1K","R_0402_1005Metric",2
+27,"","","R6, R8","100K","R_0402_1005Metric",2
+28,"","","R22, R23","120K","R_0402_1005Metric",2
+29,"","","R7","33.2K","R_0402_1005Metric",1
+30,"","","R9","22K","R_0402_1005Metric",1
+31,"","","L6, L8","2.2uH","L_0603_1608Metric",2
+32,"","","L1","10uH","L_10.4x10.4_H4.8",1
+33,"","","L2","18nH","L_0402_1005Metric",1
+34,"","","L3","1.5nH","L_0402_1005Metric",1
+35,"","","L4","1.6nH","L_0402_1005Metric",1
+36,"","","L5","1.1nH","L_0402_1005Metric",1
+37,"","","L7","2.4nH","L_0402_1005Metric",1
+38,"","","L9","12nH","L_0402_1005Metric",1
+39,"","","L10","4.7nH","L_0402_1005Metric",1
+40,"","","L11","24nH","L_0402_1005Metric",1
+41,"","","L12","3.9nH","L_0402_1005Metric",1
+42,"","","L13","7.5nH","L_0402_1005Metric",1
+43,"","","D1, D2, D4, D5, D6, D9, D10, D11","LED","LED_0603_1608Metric",8
+44,"","","D7, D12","D_TVS","D_0402_1005Metric",2
+45,"","","D3","D_Schottky","D_SOD-123",1
+46,"","","D8","D_Schottky","D_0603_1608Metric",1
+47,"","","U1, U7","STM32H523RCTx","LQFP-64_10x10mm_P0.5mm",2
+48,"","","U8, U11","LR2021","QFN-32-1EP_7x7mm_P0.65mm_EP4.65x4.65mm",2
+49,"","","U2","LSM6DSV","LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y",1
+50,"","","U3","MMC5983MA","LGA-16_3x3mm_P0.5mm",1
+51,"","","U4","BMP384","Rohm_MLGA010V020A_LGA-10_2x2mm_P0.45mm_LayoutBorder2x3y",1
+52,"","","U5","MIC5504-3.3YM5","SOT-23-5",1
+53,"","","U6","TPS54308","SOT-23-6",1
+54,"","","U9","STM32G030K8Tx","LQFP-32_7x7mm_P0.8mm",1
+55,"","","U10","MAX-M10S","ublox_MAX",1
+56,"","","Y1, Y3","32.768MHz","Crystal_SMD_3215-2Pin_3.2x1.5mm",2
+57,"","","Y2, Y4","24MHz","Crystal_SMD_3225-4Pin_3.2x2.5mm",2
+58,"","","Y5, Y7","32MHz 10pF","Crystal_SMD_2016-4Pin_2.0x1.6mm",2
+59,"","","Y6","32.768KHz","Crystal_SMD_3215-2Pin_3.2x1.5mm",1
+60,"","","BOOT1, BOOT2, RESET1, RESET2","SW_Push","SW_Push_SPST_NO_Alps_SKRK",4
+61,"","","TH1, TH2","ERT-J0ER104F","R_0402_1005Metric",2
+62,"","","TP1, TP2","TestPoint","TestPoint_Pad_D1.0mm",2
+63,"","","BT1","MS621FE-FL11E","BAT_MS621FE-FL11E",1
+64,"","","J10, J11, J12, J13, J14, J15, J16, J17, J18, J19, J20, J21","Conn_01x01","SolderWirePad_1x01_SMD_4x8mm",12
+65,"","","J2, J3, J5, J22","Conn_01x04","PinHeader_1x04_P2.54mm_Vertical",4
+66,"","","J4, J7, J24","Conn_01x02","PinHeader_1x02_P2.54mm_Vertical",3
+67,"","","J26, J29, J30","Conn_Coaxial","U.FL_Molex_MCRF_73412-0110_Vertical",3
+68,"","","J8, J9","Conn_01x01","SolderWirePad_1x01_SMD_1.5x3mm",2
+69,"","","J1","USB_C_Receptacle_USB2.0_14P","USB_C_Receptacle_HRO_TYPE-C-31-M-12",1
+70,"","","J6","Conn_01x05","PinSocket_1x05_P2.54mm_Vertical",1
+71,"","","J23","Conn_01x08","PinHeader_1x08_P2.54mm_Vertical",1
+72,"","","J25","Micro_SD_Card_Det1","CUI_MSD-4-A",1

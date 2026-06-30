@@ -538,7 +538,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "production/gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -659,13 +659,34 @@
       {
         "filename": "production-pcb.kicad_sch",
         "name": "production-pcb",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "1c214fe6-f31f-4118-83b9-697c34873e2e"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TH1-2,L1-13,U1-11,RESET1-2,TP1-2,R1-27,J1-30,D1-12,C1-85,BT1,BOOT1-2,Y1-7,#PWR1-148",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "1c214fe6-f31f-4118-83b9-697c34873e2e",
+      "production-pcb"
+    ],
+    [
+      "c87357ec-8079-4274-8cc2-f26f73e3b01e",
+      "flight-controller"
+    ],
+    [
+      "4e232b5c-68da-4045-a2fe-fc085f3a3c4c",
+      "power-board"
+    ],
+    [
+      "bdafa2ef-f3eb-4c83-98d4-8262798c9af4",
+      "camera-controller"
+    ],
+    [
+      "4c31e28b-aa22-4d9b-a325-432d94463d18",
+      "transceiver"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
